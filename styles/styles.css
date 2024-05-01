@@ -28,9 +28,9 @@ aside{
     box-sizing: border-box;
     width: 500px;
     margin: 10px;
-    border: 5px solid cornflowerblue;
+    border: 5px solid steelblue;
     padding: 20px;
-    background-color: aqua;
+    background-color: blanchedalmond;
     color: black;
 }
 
@@ -41,6 +41,6 @@ aside img{
 }
 footer{
     margin: 20px;
-    border-top: 5px solid blue;
+    border-top: 5px solid steelblue;
     text-align: center;    
 }
