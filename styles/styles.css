@@ -38,6 +38,7 @@ aside img{
     width: 200px;
     height: auto;
     margin: auto;
+    display: block;
 
 }
 footer{
