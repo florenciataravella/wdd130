@@ -37,7 +37,7 @@ aside{
 aside img{ 
     width: 200px;
     height: auto;
-    text-align: center;
+    align-content: center;
 
 }
 footer{
