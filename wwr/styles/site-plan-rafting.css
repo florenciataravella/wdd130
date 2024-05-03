@@ -39,6 +39,7 @@ header{
     background-color: var(--accent1-color);
 }
 p{
+    font-family: var(--paragraph-font);
     padding: 20px;
 }
 nav{
