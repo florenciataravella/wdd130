@@ -1,6 +1,6 @@
 
 
-.manrope-buni {
+.manrope {
   font-family: "Manrope", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -12,7 +12,7 @@
   }
   
 :root{
-    --paragraph-font: manrope-buni;
+    --paragraph-font: manrope; arial
     --primary-color: #E7DEB1;
     --secondary-color: #cacc90;
     --accent1-color: #8ba6a9;
