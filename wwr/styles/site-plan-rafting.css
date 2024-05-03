@@ -1,7 +1,8 @@
 
 
-.manrope {
-  font-family: "Manrope", sans-serif;
+
+.plus-jakarta-sans{
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -10,9 +11,14 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+ 
+  .manrope{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }  
 :root{
-    --paragraph-font: manrope; arial
+    --paragraph-font: "plus-jakarta-sans"
     --primary-color: #E7DEB1;
     --secondary-color: #cacc90;
     --accent1-color: #8ba6a9;
