@@ -22,7 +22,7 @@
     --primary-color: #E7DEB1;
     --secondary-color: #e94f37;
     --accent1-color:#2c3d55;
-    --accent2-color: #a7cecb;
+    --accent2-color:#0b6e4f;
     --accent3-color: #75704e;
     --heading-font: "poetsen one";
     --navigation-link-color: #f4ebbe;
@@ -47,6 +47,9 @@ header{
 p{
     font-family: var(--paragraph-font);
     padding: 20px;
+}
+.Color-callout{
+    color: var(--accent2-color);
 }
 nav{
     background-color: var(--navigation-link-color);
