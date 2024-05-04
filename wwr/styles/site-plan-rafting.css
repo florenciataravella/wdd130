@@ -25,7 +25,7 @@
     --accent2-color:#0b6e4f;
     --accent3-color: #75704e;
     --heading-font: "poetsen one";
-    --navigation-link-color: #f4ebbe;
+    --navigation-link-color: #fffae3;
     --navigation-hover-link-color: #8ba6a9;
     --navigation-hover-background-color: #cacc90;
     
@@ -35,6 +35,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color: var(--navigation-link-color);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -50,6 +51,7 @@ p{
 }
 .Colored-Callout{
     color: var(--accent2-color);
+    font-size: 1.2rem;
 }
 nav{
     background-color: var(--navigation-link-color);
