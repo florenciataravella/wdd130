@@ -66,8 +66,11 @@ nav ul{
     color: var(--primary-color);
     padding: 1rem;
 }
-nav a:link, nav a:visited{
-    color: var(--secondary-color);
+nav a:link{
+    color: var(--primary-color);
+}
+nav a:visited{
+    color:var(--secondary-color) ;
 }
 nav a :hover{
     color: var(--accent3-color);
