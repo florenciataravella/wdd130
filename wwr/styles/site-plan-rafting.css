@@ -60,7 +60,7 @@ nav{
     font-size: 1.4rem;
     display: flex;
 }
-nav li{
+nav a{
     display: block;
     color: black;
     padding: 1rem;
