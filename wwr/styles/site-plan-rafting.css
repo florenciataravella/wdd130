@@ -74,3 +74,7 @@ nav a :hover{
     color: var(--accent3-color);
     background-color: var(--accent1-color);
 }
+header div{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
