@@ -23,12 +23,13 @@
     --secondary-color: #e94f37;
     --accent1-color:#2c3d55;
     --accent2-color:#0b6e4f;
-    --accent3-color: #75704e;
+    --accent3-color: #0047ab;
     --heading-font: "poetsen one";
     --navigation-link-color: #fffae3;
     --navigation-hover-link-color: #8ba6a9;
     --navigation-hover-background-color: #cacc90;
-    
+    --navigation-background-color:#0b6e4f;
+
 }
 
 body{
@@ -56,17 +57,17 @@ p{
     font-weight: bold;
 }
 nav{
-    background-color: var(--accent1-color);
+    background-color:var(--navigation-background-color);
     font-size: 1.4rem;
     display: flex;
 }
 nav ul{
     display: block;
-    color: black;
+    color: var(--primary-color);
     padding: 1rem;
 }
 nav a:link, nav a:visited{
-    color: var(--navigation-link-color);
+    color: var(--secondary-color);
 }
 nav a :hover{
     color: var(--accent3-color);
