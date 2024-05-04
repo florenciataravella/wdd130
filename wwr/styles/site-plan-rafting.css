@@ -56,7 +56,7 @@ p{
     font-weight: bold;
 }
 nav{
-    background-color: var(--navigation-link-color);
+    background-color: var(--accent1-color);
     font-size: 1.4rem;
     display: flex;
 }
