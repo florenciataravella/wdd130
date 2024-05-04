@@ -19,7 +19,7 @@
   }  
 :root{
     --paragraph-font: "manrope";
-    --primary-color: #E7DEB1;
+    --primary-color: #FFFAE3;
     --secondary-color: #e94f37;
     --accent1-color:#2c3d55;
     --accent2-color:#0b6e4f;
@@ -52,6 +52,7 @@ p{
 .Colored-Callout{
     color: var(--accent2-color);
     font-size: 1.2rem;
+    font-style: italic;
 }
 nav{
     background-color: var(--navigation-link-color);
