@@ -20,8 +20,8 @@
 :root{
     --paragraph-font: "manrope";
     --primary-color: #E7DEB1;
-    --secondary-color: #cacc90;
-    --accent1-color: #8ba6a9;
+    --secondary-color: #e94f37;
+    --accent1-color:#2c3d55;
     --accent2-color: #a7cecb;
     --accent3-color: #75704e;
     --heading-font: "poetsen one";
@@ -46,7 +46,6 @@ header{
 }
 p{
     font-family: var(--paragraph-font);
-    color: hotpink;
     padding: 20px;
 }
 nav{
