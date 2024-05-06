@@ -77,4 +77,5 @@ nav a :hover{
 header div{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-underline-position: ;
 }
