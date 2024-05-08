@@ -1,3 +1,7 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -10,39 +14,58 @@ nav a {
 h1{
     color: steelblue;
 }
-main img{
+aside{
+    position: relative;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 10px;
+    /*border: 5px solid steelblue;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: black;*/
+}
+aside h2{ 
+    position: absolute;
+    color: violet;
+    top: 30px;
+    left: 80px;
+}
+
+p{
+    padding: 0;
+}
+main{
+    max-width: 840px;    
+}
+
+
+aside img{ 
+    
+    width: 220px;
+    height: auto;
+    /*margin: auto;*/
+    padding: 10px;
+    float: left;
+}
+
+footer{
+    margin-top: 20px;
+    border-top: 5px solid steelblue;
+    text-align: center;    
+}
+/* Class Selectors */
+.box{ margin: 1rem;
+    padding: 1rem;
+    border: 2px solid violet;
+    background-color: azure;
+    color: cadetblue;
+    clear: both;
+}
+#profile {
+    float:right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-p{
-    padding: 0;
-}
-
-main{
-    max-width: 840px;    
-}
-aside{
-    box-sizing: border-box;
-    width: 500px;
-    margin: 10px;
-    border: 5px solid steelblue;
-    padding: 20px;
-    background-color: blanchedalmond;
-    color: black;
-}
-
-aside img{ 
-    width: 200px;
-    height: auto;
-    margin: auto;
-    display: block;
-
-}
-footer{
-    margin-top: 20px;
-    border-top: 5px solid steelblue;
-    text-align: center;    
 }
