@@ -13,3 +13,10 @@
     --navigation-hover-background-color: #cacc90;
     --navigation-background-color:#0b6e4f;
 }
+body{
+    background-color: var(--primary-color);
+}
+
+.hero h1{
+    font-family: var(--heading-font);
+}
