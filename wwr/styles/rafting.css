@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poetsen+One&display=swap');
+
+:root{
+    --paragraph-font: "manrope";
+    --primary-color: #FFFAE3;
+    --secondary-color: #e94f37;
+    --accent1-color:#2c3d55;
+    --accent2-color:#0b6e4f;
+    --accent3-color: #0047ab;
+    --heading-font: "poetsen one";
+    --navigation-link-color: #fffae3;
+    --navigation-hover-link-color: #8ba6a9;
+    --navigation-hover-background-color: #cacc90;
+    --navigation-background-color:#0b6e4f;
+}
