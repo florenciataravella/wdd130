@@ -25,10 +25,10 @@
     --accent2-color:#0b6e4f;
     --accent3-color: #0047ab;
     --heading-font: "poetsen one";
-    --navigation-link-color: #fffae3;
-    --navigation-hover-link-color: #8ba6a9;
-    --navigation-hover-background-color: #cacc90;
-    --navigation-background-color:#0b6e4f;
+    --nav-link-color: #fffae3;
+    --nav-hover-link-color: --secondary-color;
+    --nav-hover-background-color: #cacc90;
+    --nav-background-color:#0b6e4f;
 
 }
 
@@ -36,7 +36,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: var(--navigation-link-color);
+    background-color: var(--nav-link-color);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -57,7 +57,7 @@ p{
     font-weight: bold;
 }
 nav{
-    background-color:var(--navigation-background-color);
+    background-color:var(--nav-background-color);
     font-size: 1.4rem;
     display: flex;
 }
@@ -77,5 +77,5 @@ nav a :hover{
 header div{
     font-family: var(--heading-font);
     color: var(--primary-color);
-    text-underline-position: ;
+    text-underline-position: 
 }
