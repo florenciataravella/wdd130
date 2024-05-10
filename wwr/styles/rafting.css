@@ -17,6 +17,9 @@ body{
     background-color: var(--primary-color);
     max-width: 960px;
 }
+header img{
+    border-radius: 50%;
+}
 .hero{
     position: relative;
 }
@@ -67,9 +70,14 @@ nav ul{
     font-family: var(--paragraph-font);
     font-size: 1.2rem;
     font-weight: 400;
-    width: 75%;
+    width: 95%;
     background-color: var(--accent1-color);
+    list-style-type:none;
 }
+ul li{
+display: inline-block;
+margin-right: 20px;
+} 
 nav a:link{
     color: var(--nav-background-color);
     text-decoration: none;
