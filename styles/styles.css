@@ -14,7 +14,7 @@ main{
     grid-column: 2/3;
 }
 nav{
-    background-color: steelblue;
+    background-color: rgb(52, 99, 138);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -35,9 +35,11 @@ h1{
     border-bottom: 5px;
     border-bottom: blueviolet;
     border-bottom: solid;
+    margin-bottom: 15px;
     max-width: 840px;
     grid-column: 2;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 aside{
     position: relative;
@@ -46,6 +48,7 @@ aside{
     margin: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
+    font-family: sans-serif;
 }
 aside h2{ 
     position: absolute;
@@ -56,14 +59,14 @@ aside h2{
 
 p{
     padding: 10px;
+    font-family: sans-serif;
 }
 aside img{ 
     
     width: 220px;
     height: auto;
-    /*margin: auto;*/
     padding: 10px;
-    float: left;
+    align-items: center;
 }
 
 footer{
@@ -76,13 +79,15 @@ footer{
     padding: 1rem;
     border: 2px solid violet;
     background-color: azure;
-    color: cadetblue;
+    color: rgb(41, 78, 79);
     clear: both;
 }
 main img {
     float:right;
     width: 150px;
     height: auto;
+    margin-top: 10px;
+    margin-left: 3px;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
