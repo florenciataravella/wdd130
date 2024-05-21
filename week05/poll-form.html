@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Florencia Taravella">
+    <title> WWD 130 | Florencia Taravella | HTML Form - User Poll </title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1> WDD130 | Florencia Taravella | HTML - User Poll </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset class="contact">
+                <legend>Contact Information</legend>
+                <label> Full Name: <input type="text" name="fullname"></label>
+                <label> Email: <input type="text" name="useremail"></label>
+            </fieldset >
+            <fieldset class="questions">
+                <legend> Questions </legend>
+                <div class="browser">
+                <label for="browser"> What is your favorite browser? </label>
+                    <select id= "browser" name="browser">
+                        <option value="mozilla"> Mozilla</option>
+                        <option value="google chrome"> Chrome </option>
+                        <option value="microsoft edge"> Edge </option>
+                        <option value="opera"> Opera</option>
+                    </select>
+                </div>
+                <div class="pet">
+                <label for="pet"> Do you have a household pet?</label>
+                    <input type="radio" id="pet" name="pet">
+                </div>
+                <div class="lived">
+                <label for="feedback"> Places you have lived: </label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands" ></textarea>
+                </div>
+                    <input id="submit" type="submit" value="Submit poll">
+            </fieldset>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>©2024 | HTML Form - User Poll Activity | Florencia Taravella </p>
+    
+</footer>
+</html>
