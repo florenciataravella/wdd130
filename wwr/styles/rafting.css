@@ -3,7 +3,7 @@
 :root{
     --paragraph-font: "manrope";
     --primary-color: #FFFAE3;
-    --secondary-color: #f95339;
+    --secondary-color: #f93a3a;
     --accent1-color:#2c3d55;
     --accent2-color:#074a35;
     --accent3-color: #0047ab;
@@ -47,7 +47,7 @@ header img{
     font-weight: 800;
     color:var(--primary-color);
     position: absolute;
-    margin-top: 600px;
+    margin-top: 700px;
     margin-left: 380px;
     padding:10px 20px 80px 20px;
     background-color: rgba(22, 116, 74, 0.9);
@@ -337,8 +337,8 @@ footer p{
     grid-row: 1;
     justify-self: center;
     font-family: var(--paragraph-font);
-    color: black;
-    font-weight: 300;
+    color: white;
+    font-weight: 400;
 }
 .footer {
     display: flex;
@@ -353,7 +353,7 @@ footer p{
     justify-self: center;
     font-family: var(--paragraph-font);
     font-size: 1.5rem;
-    color: black;
+    color:white;
     font-weight: 700;
     text-decoration: none;
 }
