@@ -302,7 +302,7 @@ fieldset{
 }
 #submit{
     padding: 13px;
-    width: 100px;
+    width: 200px;
     justify-self: center;
     margin-bottom: 70px;
     border: 2px solid grey;
@@ -315,7 +315,7 @@ fieldset{
 }
 #submit:hover{
     padding: 13px;
-    width: 100px;
+    width: 200px;
     justify-self: center;
     margin-bottom: 70px;
     border: 2px solid grey;
