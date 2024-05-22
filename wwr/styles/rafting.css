@@ -337,8 +337,10 @@ footer p{
     grid-row: 1;
     justify-self: center;
     font-family: var(--paragraph-font);
-    color: white;
-    font-weight: 400;
+    color: black;
+    padding: 7px;
+    background-color: white;
+    font-weight: 500;
 }
 .footer {
     display: flex;
