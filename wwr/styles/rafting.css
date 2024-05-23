@@ -44,18 +44,14 @@ header img{
 }
 .reach{
     font-family: var(--paragraph-font);
-    font-weight: 800;
+    font-weight: 700;
     color:var(--primary-color);
-    position: absolute;
-    margin-top: 700px;
-    margin-left: 380px;
-    padding:10px 20px 80px 20px;
     background-color: rgba(22, 116, 74, 0.9);
-    border-radius: 3px;
-}
-.reach p{
-    text-align: center;
-    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    }
+.reach h1{
+    margin-left: 350px
 }
 .reach a{
     text-decoration: none;
@@ -153,60 +149,47 @@ header img{
     color: var(--nav-link-color);
     font-size: 2rem;
 }
-figcaption{
+.adventure figcaption{
     font-family: var(--paragraph-font);
     font-size: 0.8rem;
     color: var(--primary-color);
-}/*
-footer{
-    display: grid;
-    align-items: center;
-    background-color: var(--secondary-color);
 }
-footer p{
-    grid-column: 2/3;
-    grid-row: 1;
-    justify-self: center;
-}
-.footer {
-    display: flex;
-    grid-column: 3/4;
-    grid-row: 1;
-    justify-self: right;
-    padding-right: 15px;
-}
-nav a:link{
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
-    
-}
-nav a:visited{
-    color: var(--secondary-color);
-    font-weight: 600;
-}
-nav a:hover{
-    color: var(--accent3-color);
-    font-weight: 600;
-}
-nav img{
-    width: 30px;
-    height: auto;
-}*/
 .employee{
-    display: flex;
-    box-sizing:content-box;
-    width: max-content;
-    border-top: 20px solid rgb(28, 148, 94,0.7);
+    width: 100%;
+    background-color:gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.employee figcaption:nth-child(1){
+    position: absolute;
+    margin-top: 50px;
 }
 .employee img{
-    width: 320px;
+    width: 280px;
     height: auto;
+ }
+ .employee figure:nth-child(1){
+    margin-left: 10px;
+ }
+ .employee figure:nth-child(2){
+    margin-left: 5px;
+ }
+ .employee figure:nth-child(3){
+    margin-left: 8px;
+ }
+.employee figcaption{
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
 }
 .information{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 81.5px;
     background-color:gainsboro;
 }
 .information img{
