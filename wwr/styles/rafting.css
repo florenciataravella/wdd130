@@ -167,7 +167,7 @@ header img{
 }
 .employee img{
     width: 280px;
-    height: auto;
+    height: 200px;
  }
  .employee figure:nth-child(1){
     margin-left: 10px;
@@ -295,6 +295,7 @@ fieldset{
     background-color: var(--accent2-color);
     color: var(--primary-color);
     font-size: 1.2rem;
+    cursor: pointer;
 }
 #submit:hover{
     padding: 13px;
