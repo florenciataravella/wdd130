@@ -283,7 +283,7 @@ fieldset{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#submit-request{
+#request{
     padding: 13px;
     width: 200px;
     justify-self: center;
@@ -297,7 +297,7 @@ fieldset{
     font-size: 1.2rem;
     cursor: pointer;
 }
-#submit-request:hover{
+#request:hover{
     padding: 13px;
     width: 200px;
     justify-self: center;
