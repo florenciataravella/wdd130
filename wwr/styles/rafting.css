@@ -381,8 +381,8 @@ nav img{
     position: relative;
     background-color: rgba(180, 235, 235, 0.5);
 }
-#know-more-button{
-    width: 100%;
+.know-more a{
+    width: 96.8%;
     position: absolute;
     margin-top: 100px;
     margin-left: -960px;
@@ -392,8 +392,9 @@ nav img{
     font-family: var(--paragraph-font);
     font-size: 1.5rem;
     color:#FFFAE3;
+    text-decoration: none;
 }
-#know-more-button:hover{
+#know-more a:hover{
     width: 100%;
     position: absolute;
     margin-top: 100px;
