@@ -1,34 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poetsen+One&display=swap');
 
-
-.plus-jakarta-sans{
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-.poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
- 
-.manrope{
-    font-family: "Manrope", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }  
 :root{
     --paragraph-font: "manrope";
     --primary-color: #FFFAE3;
-    --secondary-color: #e94f37;
+    --secondary-color: #180a08;
     --accent1-color:#2c3d55;
     --accent2-color:#0b6e4f;
     --accent3-color: #0047ab;
     --heading-font: "poetsen one";
     --nav-link-color: #fffae3;
-    --nav-hover-link-color: --secondary-color;
-    --nav-hover-background-color: #cacc90;
-    --nav-background-color:#0b6e4f;
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--primary-color);
+    --nav-background-color: var(--accent2-color);
 
 }
 
@@ -38,7 +22,10 @@ body{
     padding: 20px;
     background-color: var(--nav-link-color);
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
+    color: var(--primary-color);
+}
+h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -57,22 +44,25 @@ p{
     font-weight: bold;
 }
 nav{
-    background-color:var(--nav-background-color);
+    background-color:var(--accent1-color);
     font-size: 1.4rem;
     display: flex;
+}
+nav a{
+    color: var(--primary-color);
+    padding: 1rem;
+    display: block;
 }
 nav a:link nav a:visited{
     color: var(--primary-color);
     padding: 1rem;
     display: block;
 }
-
 nav a :hover{
-    color: var(--accent3-color);
+    color: var(--nav-hover-link-color);
     background-color: var(--accent1-color);
 }
 header div{
     font-family: var(--heading-font);
     color: var(--primary-color);
-    text-underline-position: 
 }
