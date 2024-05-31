@@ -131,16 +131,14 @@ nav a:hover{
     width: 75%;
     background-color:rgba(244, 241, 241, 0.3);
     padding: 10px 20px 10px 20px;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    font-size: 1.2rem;
 }
 .happy-client img{
     width: 200px;
     height: auto;
     float: right;
-}
-.happy-client{
-    font-family: var(--paragraph-font);
-    color: var(--accent1-color);
-    font-size: 1.2rem;
 }
 .adventure{
     display: grid;
@@ -338,7 +336,7 @@ footer p{
     background-color: white;
     font-weight: 500;
 }
-.footer {
+.footer{
     display: flex;
     grid-column: 3/4;
     justify-self: right;
